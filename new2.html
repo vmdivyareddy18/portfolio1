@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #e6e6e6;
+        }
+
+        .home {
+            display: flex;
+            height: 100vh;
+            width: 90%;
+            margin: 40px auto;
+            background: #ffffff;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* LEFT SIDE */
+        .left {
+            width: 50%;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .left h5 {
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .left h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .left h1 span {
+            color: #049ff8;
+        }
+
+        .left p {
+            color: #0b0808;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 400px;
+        }
+
+        .left button {
+            width: fit-content;
+            padding: 12px 25px;
+            background: #0083f5;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* RIGHT SIDE */
+        .right {
+            width: 50%;
+        }
+
+        .right img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="home">
+
+        <!-- LEFT HALF -->
+        <div class="left">
+            <h3>HI THERE!</h3>
+            <h1>I'M <span>V.M DIVYA REDDY</span></h1>
+            <p> <i>
+                    I am a student and aspiring web developer.
+                    Passionate about creating clean, simple and user-friendly websites.
+                </i>
+            </p>
+            <button>ABOUT ME</button>
+        </div>
+
+        <!-- RIGHT HALF -->
+        <div class="right">
+            <!-- Replace image.jpg with your image -->
+            <img src="image.jpg" alt="Profile">
+        </div>
+
+    </section>
+
+</body>
+
+</html>
