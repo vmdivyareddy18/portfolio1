@@ -69,9 +69,20 @@
         /* RIGHT SIDE */
         .right {
             width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f7f7f7;
         }
 
-        .right img {
+        .photo-box {
+            width: 70%;
+            height: 80%;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .photo-box img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -97,9 +108,11 @@
 
         <!-- RIGHT HALF -->
         <div class="right">
-            <!-- Replace image.jpg with your image -->
-            <img src="image.jpg" alt="Profile">
+            <div class="photo-box">
+                <img src="image.JPG" alt="Profile">
+            </div>
         </div>
+
 
     </section>
 
