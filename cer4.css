@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+    background: #3b82f6;
+    color: white;
+    margin: 0;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.certificate-card {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-img {
+    width: 100%;
+    height: 400px;
+    /* SAME SIZE FOR ALL */
+    object-fit: cover;
+    /* neat cropping */
+    border-radius: 8px;
+}
