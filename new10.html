@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #e6e6e6;
+        }
+
+        .home {
+            display: flex;
+            height: 100vh;
+            width: 90%;
+            margin: 40px auto;
+            background: #ffffff;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* LEFT SIDE */
+        .left {
+            width: 50%;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .left h5 {
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .left h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .left h1 span {
+            color: #049ff8;
+        }
+
+        .left p {
+            color: #0b0808;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 400px;
+        }
+
+        .left button {
+            width: fit-content;
+            padding: 12px 25px;
+            background: #0083f5;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* RIGHT SIDE */
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f7f7f7;
+        }
+
+        .photo-box {
+            width: 70%;
+            height: 80%;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .photo-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <title>Right Side Yellow Menu</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: #eaeaea;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Right vertical menu */
+        .right-menu {
+            position: fixed;
+            top: 50%;
+            right: 30px;
+            transform: translateY(-50%);
+            background: #03d1fb;
+            padding: 15px 10px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .right-menu a {
+            color: #000;
+            font-size: 18px;
+            text-align: center;
+            transition: 0.3s ease;
+        }
+
+        .right-menu a:hover {
+            color: #fff;
+            transform: scale(1.2);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <section class="home">
+
+        <!-- LEFT HALF -->
+        <div class="left">
+            <h3>HI THERE!</h3>
+            <h1>I'M <span>V.M DIVYA REDDY</span></h1>
+            <p> <i>
+                    I am a student and aspiring web developer.
+                    Passionate about creating clean, simple and user-friendly websites.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- RIGHT HALF -->
+        <div class="right">
+            <div class="photo-box">
+                <img src="./hello1 2.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="right-menu">
+            <a href="new9.html"><i class="fa-solid fa-house"></i></a>
+
+            <a href="resume1.html"><i class="fa-solid fa-file"></i></a>
+            <a href="cer4.html"><i class="fa-solid fa-image"></i></a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>
